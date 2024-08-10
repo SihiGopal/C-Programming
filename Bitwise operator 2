@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main(void)
+{
+    unsigned int a = 60;//00111100
+    unsigned int b = 13;//00001101
+    int result = 0;
+    result = a|b;
+    //001111001
+    printf("result is %d",result);
+    return 0;
+    
+}
